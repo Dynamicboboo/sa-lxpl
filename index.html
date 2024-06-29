@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linea 数据批量查询</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Linea 数据批量查询</h1>
+        <div class="info">
+            <p>功能待完善！</p>
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" placeholder="输入地址列表,每行一个地址" id="address-input"></textarea>
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-primary" type="button" id="query-btn">
+                <i class="bi bi-search"></i> 批量查询
+            </button>
+        </div>
+        <div id="result"></div>
+        <p class="author-info">
+            查询数据后可导出
+        </p>
+        <button class="btn btn-success" type="button" id="export-btn" disabled>
+            <i class="bi bi-file-earmark-arrow-down"></i> 导出
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
